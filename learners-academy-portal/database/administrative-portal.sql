@@ -107,8 +107,8 @@ CREATE TABLE `teachers` (
 --
 
 INSERT INTO `teachers` (`id`, `fname`, `lname`, `age`) VALUES
-(1, 'Sami', 'Rashed', '55'),
-(2, 'Rami', 'Sari', '66');
+(1, 'Radha', 'Krishnan', '45'),
+(2, 'R', 'K', '66');
 
 --
 -- Indexes for dumped tables
