@@ -41,7 +41,7 @@ CREATE TABLE `classes` (
 
 INSERT INTO `classes` (`id`, `section`, `teacher`, `subject`, `time`) VALUES
 (1, 1, 1, 1, '9:00'),
-(2, 3, 2, 2, '11:30');
+(2, 2, 2, 2, '11:30');
 
 -- --------------------------------------------------------
 
@@ -64,10 +64,10 @@ CREATE TABLE `students` (
 INSERT INTO `students` (`id`, `fname`, `lname`, `age`, `class`) VALUES
 (1, 'Keerthana', 'Bandari', 21, 1),
 (2, 'Shivmani', 'Manda', 23, 2),
-(4, 'Harshitha', 'Vutla', 21, 1),
-(5, 'Pradeep', 'Mutyalwar', 18, 2),
-(6, 'Khanwal', 'Miryalkar', 24, 1),
-(7, 'Vedhasree', 'Nagunuri', 24, 2);
+(3, 'Harshitha', 'Vutla', 21, 1),
+(4, 'Pradeep', 'Mutyalwar', 18, 2),
+(5, 'Khanwal', 'Miryalkar', 24, 1),
+(6, 'Vedhasree', 'Nagunuri', 24, 2);
 
 -- --------------------------------------------------------
 
